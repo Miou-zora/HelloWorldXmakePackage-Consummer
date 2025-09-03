@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <foo.h>
-#include <bar.h>
+#include <bar/bar.h>
 #include <baz.h>
 
 int main(int argc, char** argv) {

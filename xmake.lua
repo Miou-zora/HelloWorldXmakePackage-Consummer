@@ -1,6 +1,6 @@
 add_repositories("package_repo https://github.com/Miou-zora/HelloWorldXmakePackage-Package.git")
 
-add_requires("my_package")
+add_requires("my_package latest")
 
 target("test")
     set_kind("binary")
